@@ -1,0 +1,4 @@
+East is West in MRT as compared to BGK because the M matrix is laid out different in d'Humiere et al.
+there should be a folder src_gpu.
+THE M.dat and inv_M.dat file should be present in src_gpu.
+otherwise modify read_mrt_stuff.c where M.dat and inv_M.dat is located.

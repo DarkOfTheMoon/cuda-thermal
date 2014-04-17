@@ -2,6 +2,7 @@ __global__ void collision(double *f, double *rho, double *rho1, double *u, int *
 {
   int idx=threadIdx.x + blockIdx.x * blockDim.x, comp=param->comp, a;
   double temp, mean_rho, usq, edotu, edotu_sq, feq;
+//adding test lines
 if(idx<param->N)
 {
 if(comp==0)

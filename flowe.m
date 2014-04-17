@@ -1,6 +1,6 @@
 clear all;clc;
 close all;
-
+%to draw streamline
  lx=64;ly=lx;frame=10; ab=lx/2-4; out='out';
  gr=3.0e-06;beta=1.;dT=15.59;t=2500*frame;
    
